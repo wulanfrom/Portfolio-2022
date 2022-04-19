@@ -1,0 +1,12 @@
+.other-project {
+    background-color: #c4c4c4;
+    height: 320px;
+    border-radius: 4px;
+}
+
+/* for medium size screens bellow */
+@media screen and (max-width: 992px) {
+    .other-project {
+      margin-bottom: 12px;
+    }
+}

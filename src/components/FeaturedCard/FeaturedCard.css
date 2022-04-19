@@ -1,0 +1,22 @@
+.card-div {
+    /* background-color: #c4c4c4; */
+    height: 350px;
+    border-radius: 4px;
+}
+
+.category-text {
+    text-transform: uppercase;
+}
+
+.card-text-content {
+    padding: 42px 0px 42px 54px;
+}
+
+.project-img {
+    height: 100%;
+}
+
+.project-img-container {
+    overflow: hidden;
+    border-radius: 0px 4px 4px 0px;
+}
