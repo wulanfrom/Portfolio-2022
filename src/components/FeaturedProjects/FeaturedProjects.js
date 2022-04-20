@@ -11,6 +11,9 @@ export default function FeaturedProjects() {
   const descriptions = {
     ceeya: "Ceeya.io’s Search Website Design, from conceptualization to implementation.",
   }
+  const category = {
+    ceeya: "Web Development // UX Design",
+  }
   const images = {
     ceeya: CeeyaImage,
   }
@@ -27,7 +30,7 @@ export default function FeaturedProjects() {
         </div>
 
         <div className="project">
-          <FeaturedCard category={['UX design', 'Web Development']} title={"Ceeya Search"} desc={descriptions.ceeya} img={images.ceeya} bgColor={colors.ceeya[0]} textColor={colors.ceeya[1]}/>
+          <FeaturedCard category={category.ceeya} title={"Ceeya Search"} desc={descriptions.ceeya} img={images.ceeya} bgColor={colors.ceeya[0]} textColor={colors.ceeya[1]}/>
         </div>
 
         <Divider height={'20px'}/>
