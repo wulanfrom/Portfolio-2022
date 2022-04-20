@@ -23,22 +23,10 @@ export default function FeaturedCard(props) {
         <Container className="p-0 ">
             <ProjectCard>
                 <Row className="card-div" style={{backgroundColor: {bgColor}}}>
-                    <Col className="card-text-content" lg={5}>
-                        <div className="d-flex flex-column justify-content-between" style={{height: "100%"}}>
+                    <Col className="card-text-content" md={4} lg={5}>
+                        <div className="d-flex flex-column justify-content-between desc-text" style={{height: "100%"}}>
                             <div className="d-flex category-text">
-                                { category.map((item, index) => {
-                                    if (index != category.length - 1) {
-                                        return (
-                                            <p key={index}>{item} •</p>
-                                        )
-                                    }
-                                    else {
-                                        return (
-                                            <p key={index} style={{marginLeft: "0.25rem"}}>{item}</p>
-                                        )
-                                    }
-                                }
-                                )}
+                                <p>{category}</p>
                             </div>
                             <div className="mt-auto mb-0">
                                 <h2 className="mb-1">{title}</h2>
@@ -46,7 +34,7 @@ export default function FeaturedCard(props) {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={7} className="p-0">
+                    <Col md={8} lg={7} className="p-0">
                         <div className="project-img-container d-flex flex-column align-items-baseline">
                             <img className="project-img" src={img} />
                         </div>
