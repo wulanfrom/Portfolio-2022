@@ -3,6 +3,7 @@ import {Container} from 'react-bootstrap'
 import Divider from '../Divider/Divider'
 import FeaturedProjects from '../FeaturedProjects/FeaturedProjects'
 import OtherProjects from '../OtherProjects/OtherProjects'
+import Publications from '../Publications/Publications'
 import './Work.css'
 
 export default function Work() {
@@ -18,6 +19,10 @@ export default function Work() {
 
         <div id="other-projects">
             <OtherProjects />
+        </div>
+
+        <div id="publications">
+            <Publications />
         </div>
 
         <Divider height={'72px'}/>
