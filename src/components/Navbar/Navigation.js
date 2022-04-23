@@ -1,19 +1,20 @@
 import React from 'react'
 import { Navbar, Container, NavDropdown, Nav} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import './Navigation.css'
 
-export default function Navigation() {
+export default function Navigation(props) {
   return (
     <div>
         <Navbar expand="lg">
             <Container>
-                <Navbar.Brand href="#home">wulanfrom</Navbar.Brand>
+                <Navbar.Brand href="/">wulanfrom</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                    <Nav.Link href="#home">Work</Nav.Link>
-                    <Nav.Link href="#about">About</Nav.Link>
-                    <Nav.Link href="#contact">Contact</Nav.Link>
+                  <Link className="nav-link" to="/">Work</Link>
+                  <Link className="nav-link" to="/about">About</Link>
+                  <Link className="nav-link" to="/contact">Contact</Link>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

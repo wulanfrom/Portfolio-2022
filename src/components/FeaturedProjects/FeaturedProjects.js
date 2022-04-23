@@ -51,6 +51,13 @@ export default function FeaturedProjects() {
     wheelOn: ["#FAB82D", "#000000"],
   }
 
+  const projectLinks = {
+    ceeya: "ceeya",
+    someWeather: "someWeather",
+    reBalance: "reBalance",
+    wheelOn: "wheelOn"
+  }
+
   return (
     <div>
         <div className="d-flex my-5">
@@ -59,25 +66,25 @@ export default function FeaturedProjects() {
         </div>
 
         {/* <div className="project"> */}
-          <FeaturedCard category={category.ceeya} title={"Ceeya Search"} desc={descriptions.ceeya} img={images.ceeya} bgColor={colors.ceeya[0]} textColor={colors.ceeya[1]}/>
+          <FeaturedCard category={category.ceeya} link={projectLinks.ceeya} title={"Ceeya Search"} desc={descriptions.ceeya} img={images.ceeya} bgColor={colors.ceeya[0]} textColor={colors.ceeya[1]}/>
         {/* </div>/ */}
 
         <Divider height={'20px'}/>
 
         {/* <div className="project"> */}
-          <FeaturedCard category={category.someWeather} title={"Some(섬) Weather"} desc={descriptions.someWeather} img={images.someWeather} bgColor={colors.someWeather[0]} textColor={colors.someWeather[1]}/>
+          <FeaturedCard category={category.someWeather} link={projectLinks.someWeather} title={"Some(섬) Weather"} desc={descriptions.someWeather} img={images.someWeather} bgColor={colors.someWeather[0]} textColor={colors.someWeather[1]}/>
         {/* </div> */}
 
         <Divider height={'20px'}/>
 
         {/* <div className="project"> */}
-          <FeaturedCard category={category.reBalance} title={"reBalance"} desc={descriptions.reBalance} img={images.reBalance} bgColor={colors.reBalance[0]} textColor={colors.reBalance[1]}/>
+          <FeaturedCard category={category.reBalance} link={projectLinks.reBalance} title={"reBalance"} desc={descriptions.reBalance} img={images.reBalance} bgColor={colors.reBalance[0]} textColor={colors.reBalance[1]}/>
         {/* </div> */}
 
         <Divider height={'20px'}/>
 
         {/* <div className="project"> */}
-        <FeaturedCard category={category.wheelOn} title={"WheelOn"} desc={descriptions.wheelOn} img={images.wheelOn} bgColor={colors.wheelOn[0]} textColor={colors.wheelOn[1]}/>
+        <FeaturedCard category={category.wheelOn} link={projectLinks.wheelOn} title={"WheelOn"} desc={descriptions.wheelOn} img={images.wheelOn} bgColor={colors.wheelOn[0]} textColor={colors.wheelOn[1]}/>
         {/* </div> */}
 
         <Divider height={'20px'}/>

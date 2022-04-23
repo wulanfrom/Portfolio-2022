@@ -1,11 +1,8 @@
 .footer-div {
     background-color: #171717;
-    height: 300px;
+    min-height: 300px;
     border-radius: 12px;
-}
-
-.row {
-    height: 100%;
+    width: 100%;
 }
 
 .main-contact {
@@ -14,4 +11,35 @@
 
 .copyright-text {
     font-size: 12px;
+}
+
+.social-icon {
+    height: 42px;
+    width: 42px;
+}
+
+@media screen and (max-width: 768px) {
+    /* .footer-large {
+        display: none;
+    }
+    .footer-responsive {
+        display: inline;
+        margin: 0;
+    } */
+}
+
+@media screen and (max-width: 576px) {
+    .project-img-container {
+        width: 120%;
+    }
+    .desc-text {
+        width: 75%;
+    }
+    .card-div {
+        height: 100%;
+    }
+    
+    .project-img {
+        height: 100%;
+    }
 }
