@@ -6,6 +6,7 @@
     /* background-color: #4CDCB1; */
     height: 100%;
     border-radius: 0 0 32px 32px;
+    overflow: hidden;
 }
 
 .hero-project-category {

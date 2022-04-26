@@ -16,7 +16,7 @@ export default function ProjectHero(props) {
 
   return (
     <div>
-        <div style={{backgroundColor: bgColor, color: textColor}}className="hero-section d-flex flex-column">
+        <div style={{backgroundColor: bgColor, color: textColor}} className="hero-section d-flex flex-column">
         <div className="pt-5">
           <Container className="pt-5">
             <div className="mt-5"></div>
