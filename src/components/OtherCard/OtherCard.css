@@ -11,6 +11,10 @@
     height: 100%;
 }
 
+.other-tilt {
+    margin: 0!important;
+}
+
 .project-img-other-container {
     display: flex;
     flex-direction: column;
@@ -29,6 +33,8 @@
 
 .other-card-container {
     height: 350px;
+    width: 250px;
+    display: inline!important;
 }
 
 /* Medium */
@@ -63,4 +69,6 @@
 
 .link-container-other {
     text-decoration: none;
+    width: 250px;
+    height: 350px;
 }

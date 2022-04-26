@@ -1,12 +1,13 @@
 .footer-div {
     background-color: #171717;
     min-height: 300px;
-    border-radius: 12px;
+    border-radius: 32px 32px 0 0;
     width: 100%;
 }
 
 .main-contact {
-    font-size: 54px;
+    font-size: 72px!important;
+    font-weight: 500;
 }
 
 .copyright-text {
@@ -16,6 +17,17 @@
 .social-icon {
     height: 42px;
     width: 42px;
+}
+
+.drinks {
+    display: inline;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.divider-footer {
+    border: 1px solid #fff;
 }
 
 @media screen and (max-width: 768px) {

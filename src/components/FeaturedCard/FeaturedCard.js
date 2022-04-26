@@ -20,6 +20,7 @@ export default function FeaturedCard(props) {
     background-color: ${bgColor};
     overflow: hidden;
     border-radius: 12px;
+    min-height: 470px;
     `
 
     return (
@@ -31,10 +32,11 @@ export default function FeaturedCard(props) {
                             <Col className="card-text-content" md={4} lg={5}>
                                 <div className="d-flex flex-column justify-content-between desc-text" style={{height: "100%"}}>
                                     <div className="d-flex category-text">
-                                        <p>{category}</p>
+                                        <p className="mb-1">{category}</p>
                                     </div>
+                                    <div style={{ borderBolor: textColor }} className="underline-category"></div>
                                     <div className="mt-auto mb-0">
-                                        <h2 className="mb-1">{title}</h2>
+                                        <h2 className="mb-1 project-featured-title">{title}</h2>
                                         <p className="m-0">{description}</p>
                                     </div>
                                 </div>

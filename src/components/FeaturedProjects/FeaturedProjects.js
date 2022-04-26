@@ -60,9 +60,9 @@ export default function FeaturedProjects() {
 
   return (
     <div>
-        <div className="d-flex my-5">
-            <h1>Featured Projects</h1>
-            <h5 className="ml-1 text-black-50">5</h5>
+        <div className="sub-title my-5">
+            <h1>Featured Projects <sup className="number-project ml-1 text-black-50">5</sup></h1>
+            <p className="section-sub">Here are some projects that I am proud of!</p>
         </div>
 
         {/* <div className="project"> */}

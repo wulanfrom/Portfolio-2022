@@ -43,9 +43,9 @@ export default function OtherProjects() {
 
   return (
     <div>
-        <div className="d-flex my-5">
-            <h1>Other Projects I've Worked On</h1>
-            <h5 className="ml-1 text-black-50">4</h5>
+        <div className="sub-title my-5">
+            <h1>Other Projects I've Worked On <sup className="ml-1 text-black-5">4</sup></h1>
+            <p className="section-sub">projects i’ve done on the side.</p>
         </div>
         
         <Container className="p-0">

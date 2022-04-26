@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact'
 
 // Projects
 import CeeyaSearch from './components/Projects/CeeyaSearch/CeeyaSearch';
+import SomeWeather from './components/Projects/SomeWeather/SomeWeather';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="ceeya" element={<CeeyaSearch />} />
+          <Route path="someWeather" element={<SomeWeather />} />
         </Routes>
     </div>
   );

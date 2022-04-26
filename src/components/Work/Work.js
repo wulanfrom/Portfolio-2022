@@ -10,7 +10,7 @@ import './Work.css'
 export default function Work() {
   return (
     <div>
-        <div className="hero-image mx-2 d-flex align-items-center justify-content-center">
+        <div className="hero-image d-flex align-items-center justify-content-center">
             <h1>Hello world</h1>
         </div>
 
@@ -31,7 +31,7 @@ export default function Work() {
 
         </Container>
 
-        <div className="mx-2">
+        <div>
             <Footer />
         </div>
     </div>

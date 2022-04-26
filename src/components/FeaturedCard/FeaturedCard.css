@@ -1,5 +1,5 @@
 .feature-card-container {
-    min-height: 350px;
+    min-height: 470px;
 }
 
 .link-container {
@@ -8,12 +8,14 @@
 
 .card-div {
     /* background-color: #c4c4c4; */
-    border-radius: 12px;
+    border-radius: 4px;
+    min-height: 470px;
 }
 
 .category-text {
     text-transform: uppercase;
     font-size: 12px;
+    margin: 0;
 }
 
 .card-text-content {
@@ -22,6 +24,7 @@
 
 .project-img {
     height: 100%;
+    min-height: 470px;
     /* width: 120%; */
 }
 
@@ -46,6 +49,9 @@
     .card-text-content {
         padding-bottom: 8px;
     }
+    .project-featured-title {
+        margin-top: 1rem;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -62,8 +68,16 @@
     .project-img {
         height: 100%;
     }
+
+    .project-featured-title {
+        margin-top: 1rem;
+    }
 }
 
 .Tilt {
     height: 100%;
+}
+
+.underline-category {
+    border: 0.5px solid;
 }

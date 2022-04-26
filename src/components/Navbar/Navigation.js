@@ -6,7 +6,7 @@ import './Navigation.css'
 export default function Navigation(props) {
   return (
     <div>
-        <Navbar expand="lg">
+        <Navbar className="wulanfrom-navbar" expand="lg">
             <Container>
                 <Navbar.Brand href="/">wulanfrom</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
