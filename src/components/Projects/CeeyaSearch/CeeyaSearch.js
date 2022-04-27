@@ -230,21 +230,17 @@ export default function CeeyaSearch() {
           <Container>
             <Row>
                 <Col md={4} lg={4}>
-                <div>
-                <div>
-                  <div className="Section-line-sw"></div>
-                  <p className="Section-type">Low-fi prototyping</p>
-                  <p className="Section-title">Wireframes</p>
-                  <p>We created low-fi prototypes built on the previous designs. The main changes are the small tasks list, the popup to remind users of these tasks, and the addition of a user profile to track their money savings.</p>
-                </div>
-              </div>
+                  <div>
+                    <div className="Section-line-sw"></div>
+                    <p className="Section-title">Wireframes</p>
+                  </div>
                 </Col>
                 <Col md={8} lg={8}>
                   <div className="img-giant">
                     <img className="opening-image" src={swWirefame}></img>
                   </div>
                 </Col>
-              </Row>
+            </Row>
           </Container>
         </div>
 
