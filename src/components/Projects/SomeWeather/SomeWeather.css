@@ -51,6 +51,34 @@
     /* min-height: 500px; */
 }
 
+.project-content {
+    margin-top: 72px;
+}
+
+.img-giant {
+    width: 100%;
+}
+
+.opening-image {
+    width: 100%;
+}
+
+.list-main-point {
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+.list-item-points {
+    list-style: none;
+    padding-left: 24px;
+    margin: 0;
+}
+
+.wireframe-container {
+    background-color: #F6F6F6;
+}
+
 @media screen and (max-width: 768px) {
     .hero-project-title  {
         font-size: 80px;
@@ -66,5 +94,50 @@
 
     .hero-project-desc, .project-info, .hero-project-category {
         font-size: 16px;
+    }
+}
+
+/* MOVE TO GLOBAL */
+.Container1 {
+    padding-right: var(--bs-gutter-x, 2.5rem);
+    padding-left: var(--bs-gutter-x, 2.5rem);
+}
+
+.Single-Column-Container {
+    max-width: 750px;
+}
+
+.Two-Column-Container {
+    max-width: 1100px;
+}
+
+.Section-line {
+    width: 75px;
+    border: 3px solid #4CDCB1;
+}
+
+.Section-title {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.Section-type {
+    font-family: 'Source Code Pro', monospace;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.Section-type {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+@media screen and (max-width: 576px) {
+    .Section-title  {
+        font-size: 36px;
+        line-height: 120%;
     }
 }

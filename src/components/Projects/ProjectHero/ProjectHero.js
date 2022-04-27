@@ -13,6 +13,8 @@ export default function ProjectHero(props) {
     const heroImg = props.heroImg;
     const bgColor = props.bgColor;
     const textColor = props.textColor;
+    
+    const border_style = '2px solid ' + textColor;
 
   return (
     <div>
@@ -25,7 +27,7 @@ export default function ProjectHero(props) {
             <p className="hero-project-desc mb-5">{desc}</p>
             <Row>
               <Col xs={12} sm={10} md={9} lg={8}>
-                <div className="hero-project-info">
+                <div style={{ borderBottom: border_style, borderTop: border_style }} className="hero-project-info">
                   <div>
                       <p className="project-section m-0 mt-4">Role</p>
                       <p className="project-info">{role}</p>

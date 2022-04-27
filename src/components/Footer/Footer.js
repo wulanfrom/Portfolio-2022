@@ -24,11 +24,11 @@ export default function Footer() {
                 <Row className="footer-responsive mt-3">
                     <Col sm={9} md={9} lg={9} className="d-flex align-items-center text-white">
                         <div className="d-flex">
-                            <p className="me-4">Email</p>
-                            <p className="me-4">Behance</p>
-                            <p className="me-4">Dribbble</p>
-                            <p className="me-4">LinkedIn</p>
-                            <p className="me-4">Github</p>
+                            <p className="me-4 social-icon">Email</p>
+                            <p className="me-4 social-icon">Behance</p>
+                            <p className="me-4 social-icon">Dribbble</p>
+                            <p className="me-4 social-icon">LinkedIn</p>
+                            <p className="me-4 social-icon">Github</p>
                             {/* <img className="social-icon me-3 mb-2" src={Email} />
                             <img className="social-icon me-3 mb-2" src={Behance} />   
                             <img className="social-icon me-3 mb-2" src={Dribbble} />
