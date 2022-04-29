@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import './ProjectFooter.css'
+import { Link } from 'react-router-dom'
 
 // icons
 import Behance from '../../resources/icons/behance.svg'
@@ -16,6 +17,16 @@ import WheelOnPng from '../../resources/someWeatherMoodboard.png'
 export default function ProjectFooter(props) {
     const nextProject = props.next;
     const prevProject = props.prev;
+    const nextLink = props.nextLink;
+    const prevLink = props.prevLink;
+
+    const projectLinks = {
+        ceeya: "ceeya",
+        someWeather: "someWeather",
+        reBalance: "reBalance",
+        wheelOn: "wheelOn"
+    }
+
   return (
     <div>
         <div className="footer-div m-0 p-0 px-5 pt-5 pb-3">
@@ -27,18 +38,23 @@ export default function ProjectFooter(props) {
                 </div>
                 <Row>
                     <Col>
-                        <img className="prev-project-item" src={WheelOnPng}></img>
-                        <div className="pt-2">
-                            <p className="prev-project-title m-0 text-white">Asian CHI</p>
-                            <p className="prev-project-category m-0 text-white">WEBSITE DESIGN AND DEVELOPMENT</p>
-                        </div>
+                        {/* useHistory later */}
+                        <Link className="link-container" to={ projectLinks.ceeya }>
+                            <img className="prev-project-item" src={prevProject}></img>
+                            <div className="pt-2">
+                                <p className="prev-project-title m-0 text-white">Asian CHI</p>
+                                <p className="prev-project-category m-0 text-white">WEBSITE DESIGN AND DEVELOPMENT</p>
+                            </div>
+                        </Link>
                     </Col>
                     <Col>
-                        <img className="next-project-item" src={WheelOnPng}></img>
-                        <div className="pt-2 next-project-info">
-                            <p className="next-project-title m-0 text-white">Asian CHI</p>
-                            <p className="next-project-category m-0 text-white">WEBSITE DESIGN AND DEVELOPMENT</p>
-                        </div>
+                        <Link className="link-container" to={ projectLinks.someWeather }>
+                            <img className="next-project-item" src={nextProject}></img>
+                            <div className="pt-2 next-project-info">
+                                <p className="next-project-title m-0 text-white">Asian CHI</p>
+                                <p className="next-project-category m-0 text-white">WEBSITE DESIGN AND DEVELOPMENT</p>
+                            </div>
+                        </Link>
                     </Col>
                 </Row>
                 <Row className="footer-responsive mt-3 mb-2">

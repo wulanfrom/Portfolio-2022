@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import { Routes, Route, Link } from "react-router-dom";
@@ -12,6 +10,8 @@ import Contact from './components/Contact/Contact'
 // Projects
 import CeeyaSearch from './components/Projects/CeeyaSearch/CeeyaSearch';
 import SomeWeather from './components/Projects/SomeWeather/SomeWeather';
+import ReBalance from './components/Projects/reBalance/reBalance';
+import WheelOn from './components/Projects/WheelOn/WheelOn';
 
 function App() {
   return (
@@ -24,6 +24,8 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="ceeya" element={<CeeyaSearch />} />
           <Route path="someWeather" element={<SomeWeather />} />
+          <Route path="reBalance" element={<ReBalance />} />
+          <Route path="wheelon" element={<WheelOn />} />
         </Routes>
     </div>
   );

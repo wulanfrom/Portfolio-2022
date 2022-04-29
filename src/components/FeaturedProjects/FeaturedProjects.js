@@ -7,7 +7,7 @@ import FeaturedCard from '../FeaturedCard/FeaturedCard'
 // featured projects
 import CeeyaImage from '../../resources/ceeya-project.png'
 import SomeWeatherImage from '../../resources/some-weather.png'
-import ReBalanceImage from '../../resources/reBalance.png'
+import ReBalanceImage from '../../resources/reBalance/reBalance.png'
 import WheelOn from '../../resources/wheelOn.png'
 
 // other projects

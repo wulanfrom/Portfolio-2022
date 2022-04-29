@@ -18,8 +18,10 @@ export default function Navigation(props) {
     "ceeya": ["#272727", "#fff"],
     "someWeather": ["#4CDCB1", "#000"],
     "reBalance": ["#6CAFE5", "#000000"],
-    "wheelOn": ["#FAB82D", "#000000"],
+    "wheelon": ["#FAB82D", "#000000"],
   }
+
+  console.log(pathname)
 
   const chosenColor = colors[pathname];
   const border_bottom = '1px solid ' + chosenColor[1];
