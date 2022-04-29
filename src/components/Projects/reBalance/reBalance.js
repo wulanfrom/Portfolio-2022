@@ -277,6 +277,8 @@ export default function reBalance() {
                           </Col>
                       </Row>
                   </Container>
+
+                  <Divider height={120} />
                   
                   {/* hi-fi prototyping */}
                   <Container className="Single-Column-Container">
