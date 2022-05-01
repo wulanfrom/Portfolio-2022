@@ -2,8 +2,7 @@ import React from 'react'
 import './FeaturedCard.css'
 import { Link } from 'react-router-dom'
 
-import { Container, Row, Col } from 'react-bootstrap'
-import { Tooltip } from 'bootstrap';
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import styled, { css } from 'styled-components'
 import Tilt from 'react-tilt'
 

@@ -5,11 +5,11 @@ import { Row, Col, Container } from 'react-bootstrap'
 import OtherCard from '../OtherCard/OtherCard'
 
 // other projects
-import Nft from '../../resources/nft.png'
-import ColorArt from '../../resources/color.png'
-import AsianCHI from '../../resources/asianchi.png'
-import GoodFood from '../../resources/goodFood.png'
-import Kixlab from '../../resources/xdesign.png'
+import Nft from '../../resources/nftPoster/nft.png'
+import ColorArt from '../../resources/colorArt/color.png'
+import AsianCHI from '../../resources/asianCHI/asianchi.png'
+import GoodFood from '../../resources/goodFood/goodFood.png'
+import Kixlab from '../../resources/xDesign/xdesign.png'
 
 export default function OtherProjects() {
     const category = {
@@ -50,27 +50,27 @@ export default function OtherProjects() {
         
         <Container className="p-0">
             <Row>
-                <Col className="mb-2" sm={6} md={4} lg={3}>
+                <Col className="mb-2" sm={6} md={4} lg={4}>
                     <div className="other-project">
                         <OtherCard title={"XDesign"} link={projectLink.xDesign} img={img.xDesign} category={category.xDesign} bgColor={color.xDesign[0]} textColor={color.xDesign[1]} />
                     </div>
                 </Col>
-                <Col className="mb-2" sm={6} md={4} lg={3}>
+                <Col className="mb-2" sm={6} md={4} lg={4}>
                     <div className="other-project">
                         <OtherCard title={"Good Food that Feels Like Home"} link={projectLink.goodFood} img={img.goodFood} category={category.goodFood} bgColor={color.goodFood[0]} textColor={color.goodFood[1]} />
                     </div>
                 </Col>
-                <Col className="mb-2"sm={6} md={4} lg={3}>
+                <Col className="mb-2"sm={6} md={4} lg={4}>
                     <div className="other-project">
                         <OtherCard title={"NFT Crypto Art is Changing How Artists Earn, but at What Cost?"} link={projectLink.nft} img={img.nft} category={category.nft} bgColor={color.nft[0]} textColor={color.nft[1]} />
                     </div>
                 </Col>
-                <Col className="mb-2" sm={6} md={4} lg={3}>
+                <Col className="mb-2" sm={6} md={4} lg={4}>
                     <div className="other-project">
                         <OtherCard title={"Color My Influence"} link={projectLink.colorArt} img={img.colorArt} category={category.colorArt} bgColor={color.colorArt[0]} textColor={color.colorArt[1]} />
                     </div>
                 </Col>
-                <Col className="mb-2" sm={6} md={4} lg={3}>
+                <Col className="mb-2" sm={6} md={4} lg={4}>
                     <div className="other-project">
                         <OtherCard title={"AsianCHI Symposium Official Website"} link={projectLink.asianCHI} img={img.asianCHI} category={category.asianCHI} bgColor={color.asianCHI[0]} textColor={color.asianCHI[1]} />
                     </div>

@@ -3,18 +3,25 @@ import './FeaturedProjects.css'
 
 import Divider from '../Divider/Divider'
 import FeaturedCard from '../FeaturedCard/FeaturedCard'
+import FeaturedCardLeft from '../FeaturedCardLeft/FeaturedCardLeft'
 
 // featured projects
-import CeeyaImage from '../../resources/ceeya-project.png'
-import SomeWeatherImage from '../../resources/some-weather.png'
-import ReBalanceImage from '../../resources/reBalance/reBalance.png'
-import WheelOn from '../../resources/wheelOn.png'
+import CeeyaImage from '../../resources/featuredPictures/ceeya.png'
+import SomeWeatherImage from '../../resources/featuredPictures/sw.png'
+import ReBalanceImage from '../../resources/featuredPictures/rb.png'
+import WheelOn from '../../resources/featuredPictures/wheelOn.png'
+
+// inner featured pictures
+import CeeyaDevice from '../../resources/featuredPictures/ceeya-device.png'
+import SomeWeatherDevice from '../../resources/featuredPictures/sw-device.png'
+import ReBalanceDevice from '../../resources/featuredPictures/rb-device.png'
+import WheelOnDevice from '../../resources/featuredPictures/wo-device.png'
 
 // other projects
-import Nft from '../../resources/nft.png'
-import ColorArt from '../../resources/color.png'
-import AsianCHI from '../../resources/asianchi.png'
-import GoodFood from '../../resources/goodFood.png'
+import Nft from '../../resources/nftPoster/nft.png'
+import ColorArt from '../../resources/colorArt/color.png'
+import AsianCHI from '../../resources/asianCHI/asianchi.png'
+import GoodFood from '../../resources/goodFood/goodFood.png'
 
 
 
@@ -24,6 +31,7 @@ export default function FeaturedProjects() {
     someWeather: "Integrating environmental awareness to everyday weather apps.",
     reBalance: "Helping manage your emotional, physical, and social health.",
     wheelOn: "Assisting users with moving disabilities through online means.",
+    asianCHI: "Asian CHI Symposium's 2022 Official Website"
   }
   const category = {
     ceeya: "Web Development // UX Design",
@@ -44,6 +52,13 @@ export default function FeaturedProjects() {
     goodFood: GoodFood
   }
 
+  const device = {
+    ceeya: CeeyaDevice,
+    someWeather: SomeWeatherDevice,
+    reBalance: ReBalanceDevice,
+    wheelOn: WheelOnDevice,
+  }
+
   const colors = {
     ceeya: ["#424242", "#ffffff"],
     someWeather: ["#4CDCB1", "#000000"],
@@ -55,7 +70,7 @@ export default function FeaturedProjects() {
     ceeya: "ceeya",
     someWeather: "someWeather",
     reBalance: "reBalance",
-    wheelOn: "wheelOn"
+    wheelOn: "wheelon"
   }
 
   return (
@@ -66,28 +81,28 @@ export default function FeaturedProjects() {
         </div>
 
         {/* <div className="project"> */}
-          <FeaturedCard category={category.ceeya} link={projectLinks.ceeya} title={"Ceeya Search"} desc={descriptions.ceeya} img={images.ceeya} bgColor={colors.ceeya[0]} textColor={colors.ceeya[1]}/>
+          <FeaturedCard imgInner={device.ceeya} category={category.ceeya} link={projectLinks.ceeya} title={"Ceeya Search"} desc={descriptions.ceeya} img={images.ceeya} bgColor={colors.ceeya[0]} textColor={colors.ceeya[1]}/>
         {/* </div>/ */}
 
-        <Divider height={'20px'}/>
+        <Divider height={'32px'}/>
 
         {/* <div className="project"> */}
-          <FeaturedCard category={category.someWeather} link={projectLinks.someWeather} title={"Some(섬) Weather"} desc={descriptions.someWeather} img={images.someWeather} bgColor={colors.someWeather[0]} textColor={colors.someWeather[1]}/>
+          <FeaturedCard imgInner={device.someWeather} category={category.someWeather} link={projectLinks.someWeather} title={"Some(섬) Weather"} desc={descriptions.someWeather} img={images.someWeather} bgColor={colors.someWeather[0]} textColor={colors.someWeather[1]}/>
         {/* </div> */}
 
-        <Divider height={'20px'}/>
+        <Divider height={'32px'}/>
 
         {/* <div className="project"> */}
-          <FeaturedCard category={category.reBalance} link={projectLinks.reBalance} title={"reBalance"} desc={descriptions.reBalance} img={images.reBalance} bgColor={colors.reBalance[0]} textColor={colors.reBalance[1]}/>
+          <FeaturedCard imgInner={device.reBalance} category={category.reBalance} link={projectLinks.reBalance} title={"reBalance"} desc={descriptions.reBalance} img={images.reBalance} bgColor={colors.reBalance[0]} textColor={colors.reBalance[1]}/>
         {/* </div> */}
 
-        <Divider height={'20px'}/>
+        <Divider height={'32px'}/>
 
         {/* <div className="project"> */}
-        <FeaturedCard category={category.wheelOn} link={projectLinks.wheelOn} title={"WheelOn"} desc={descriptions.wheelOn} img={images.wheelOn} bgColor={colors.wheelOn[0]} textColor={colors.wheelOn[1]}/>
+        <FeaturedCard imgInner={device.wheelOn} category={category.wheelOn} link={projectLinks.wheelOn} title={"WheelOn"} desc={descriptions.wheelOn} img={images.wheelOn} bgColor={colors.wheelOn[0]} textColor={colors.wheelOn[1]}/>
         {/* </div> */}
 
-        <Divider height={'20px'}/>
+        <Divider height={'32px'}/>
     </div>
   )
 }

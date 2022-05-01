@@ -11,7 +11,7 @@ import Email from '../../resources/icons/Vector-3.svg'
 import Github from '../../resources/icons/Vector.svg'
 
 // images
-import WheelOnPng from '../../resources/someWeatherMoodboard.png'
+import WheelOnPng from '../../resources/someWeather/someWeatherMoodboard.png'
 
 
 export default function ProjectFooter(props) {

@@ -19,6 +19,11 @@ export default function Navigation(props) {
     "someWeather": ["#4CDCB1", "#000"],
     "reBalance": ["#6CAFE5", "#000000"],
     "wheelon": ["#FAB82D", "#000000"],
+    "xdesign": ["#E8E8E8", "#000000"],
+    "nftPoster": ["#F8FB75", "#000000"],
+    "colorArt": ["#45494B", "#fff"],
+    "goodFood": ["#B8D4BD", "#000000"],
+    "asianCHI": ["#00357C", '#fff' ]
   }
 
   console.log(pathname)

@@ -32,8 +32,8 @@
 }
 
 .other-card-container {
-    height: 350px;
-    width: 250px;
+    height: 250px;
+    width: 100%;
     display: inline!important;
 }
 
@@ -69,6 +69,6 @@
 
 .link-container-other {
     text-decoration: none;
-    width: 250px;
-    height: 350px;
+    height: 250px;
+    width: 100%;
 }

@@ -17,18 +17,18 @@ export default function Footer() {
                 <Row>
                     <Col sm={9} md={9} lg={9} className="d-flex align-items-center justify-content-center">
                         <div className="text-white main-contact">
-                            <p>Interested in working together? Lets chat over <p className="drinks">coffee ☕️</p></p>
+                            <p>Interested in working together? Lets chat over <p className="drinks">coffee☕️</p></p>
                         </div>
                     </Col>
                 </Row>
                 <Row className="footer-responsive mt-3">
                     <Col sm={9} md={9} lg={9} className="d-flex align-items-center text-white">
                         <div className="d-flex">
-                            <p className="me-4 social-icon">Email</p>
-                            <p className="me-4 social-icon">Behance</p>
-                            <p className="me-4 social-icon">Dribbble</p>
-                            <p className="me-4 social-icon">LinkedIn</p>
-                            <p className="me-4 social-icon">Github</p>
+                            <a href="mailto:biasindi.wulanfrom@gmail.com" className="social-links me-4 mb-3">Email</a>
+                            <a href="https://www.behance.net/wulanfrom"className="social-links me-4 mb-3">Behance</a>
+                            <a href="https://dribbble.com/biasindi" className="social-links me-4 mb-3">Dribbble</a>
+                            <a href="https://www.linkedin.com/in/wulanfrom/" className="social-links me-4 mb-3">LinkedIn</a>
+                            <a href="https://github.com/wulanfrom" className="social-links me-4 mb-3">Github</a>
                             {/* <img className="social-icon me-3 mb-2" src={Email} />
                             <img className="social-icon me-3 mb-2" src={Behance} />   
                             <img className="social-icon me-3 mb-2" src={Dribbble} />

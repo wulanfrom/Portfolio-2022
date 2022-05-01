@@ -4,13 +4,13 @@ import "./CeeyaSearch.css"
 
 // images
 import someWeatherpng from '../../../resources/ceeya-project.png'
-import someWeatherMoodboard from '../../../resources/someWeatherMoodboard.png'
-import swFeature1 from '../../../resources/SW-feature-1.svg'
-import swFeature2 from '../../../resources/SW-feature-2.svg'
-import swFeature3 from '../../../resources/SW-feature-3.png'
-import swPersona from '../../../resources/SW-persona.png'
-import swWirefame from '../../../resources/SW-wireframes.png'
-import swClosing from '../../../resources/SW-closing.png'
+import someWeatherMoodboard from '../../../resources/someWeather/someWeatherMoodboard.png'
+import swFeature1 from '../../../resources/someWeather/SW-feature-1.svg'
+import swFeature2 from '../../../resources/someWeather/SW-feature-2.svg'
+import swFeature3 from '../../../resources/someWeather/SW-feature-3.png'
+import swPersona from '../../../resources/someWeather/SW-persona.png'
+import swWirefame from '../../../resources/someWeather/SW-wireframes.png'
+import swClosing from '../../../resources/someWeather/SW-closing.png'
 
 // components
 import ProjectHero from '../ProjectHero/ProjectHero'

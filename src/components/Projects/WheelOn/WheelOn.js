@@ -4,17 +4,17 @@ import { Container, Row, Col } from 'react-bootstrap'
 import FigmaEmbed from 'react-figma-embed';
 
 // images
-import wheelonpng from '../../../resources/wheelOn.png'
-import wheelOnMoodboard from '../../../resources/wo-hero-img.png'
-import woFeature1 from '../../../resources/WO-feature-1.png'
-import woFeature2 from '../../../resources/WO-feature-2.png'
-import woFeature3 from '../../../resources/WO-feature-3.png'
-import woIdea1 from '../../../resources/wo-idea-1.png'
-import woIdea2 from '../../../resources/wo-idea-2.png'
-import woIdea3 from '../../../resources/wo-idea-3.png'
-import woPersona from '../../../resources/WO-persona.png'
+import wheelonpng from '../../../resources/wheelOn/wheelOn.png'
+import wheelOnMoodboard from '../../../resources/wheelOn/wo-hero-img.png'
+import woFeature1 from '../../../resources/wheelOn/WO-feature-1.png'
+import woFeature2 from '../../../resources/wheelOn/WO-feature-2.png'
+import woFeature3 from '../../../resources/wheelOn/WO-feature-3.png'
+import woIdea1 from '../../../resources/wheelOn/wo-idea-1.png'
+import woIdea2 from '../../../resources/wheelOn/wo-idea-2.png'
+import woIdea3 from '../../../resources/wheelOn/wo-idea-3.png'
+import woPersona from '../../../resources/wheelOn/WO-persona.png'
 import implementation from '../../../resources/implementation-placeholder.png'
-import woClosing from '../../../resources/WO-closing.png'
+import woClosing from '../../../resources/wheelOn/WO-closing.png'
 
 
 // components
@@ -23,8 +23,8 @@ import Divider from '../../Divider/Divider'
 import ProjectFooter from '../../ProjectFooter/ProjectFooter'
 
 // next projects
-import someWeatherProject from '../../../resources/someWeatherMoodboard.png'
-import wheelOnProject from '../../../resources/wo-hero-img.png'
+import someWeatherProject from '../../../resources/someWeather/someWeatherMoodboard.png'
+import wheelOnProject from '../../../resources/wheelOn/wo-hero-img.png'
 
 export default function WheelOn() {
     const category = "SYSTEM DESIGN // WEB DEVELOPMENT"

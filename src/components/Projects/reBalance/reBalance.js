@@ -22,8 +22,8 @@ import Divider from '../../Divider/Divider'
 import ProjectFooter from '../../ProjectFooter/ProjectFooter'
 
 // next projects
-import someWeatherProject from '../../../resources/someWeatherMoodboard.png'
-import wheelOnProject from '../../../resources/wo-hero-img.png'
+import someWeatherProject from '../../../resources/someWeather/someWeatherMoodboard.png'
+import wheelOnProject from '../../../resources/wheelOn/wo-hero-img.png'
 
 export default function reBalance() {
   const category = "SYSTEM DESIGN // WEB DEVELOPMENT"

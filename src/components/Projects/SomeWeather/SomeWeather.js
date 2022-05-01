@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './SomeWeather.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
+// animation
+import { motion } from "framer-motion";
+
 // images
-import someWeatherpng from '../../../resources/some-weather.png'
-import someWeatherMoodboard from '../../../resources/someWeatherMoodboard.png'
-import swFeature1 from '../../../resources/SW-feature-1.svg'
-import swFeature2 from '../../../resources/SW-feature-2.svg'
-import swFeature3 from '../../../resources/SW-feature-3.png'
-import swPersona from '../../../resources/SW-persona.png'
-import swWirefame from '../../../resources/SW-wireframes.png'
-import swClosing from '../../../resources/SW-closing.png'
+import someWeatherpng from '../../../resources/someWeather/some-weather.png'
+import someWeatherMoodboard from '../../../resources/someWeather/someWeatherMoodboard.png'
+import swFeature1 from '../../../resources/someWeather/SW-feature-1.svg'
+import swFeature2 from '../../../resources/someWeather/SW-feature-2.svg'
+import swFeature3 from '../../../resources/someWeather/SW-feature-3.png'
+import swPersona from '../../../resources/someWeather/SW-persona.png'
+import swWirefame from '../../../resources/someWeather/SW-wireframes.png'
+import swClosing from '../../../resources/someWeather/SW-closing.png'
 
 // components
 import ProjectHero from '../ProjectHero/ProjectHero'
@@ -25,6 +28,15 @@ export default function SomeWeather() {
   const role = "UI/UX Designer, UX Researcher, Ideation, discovery, prototyping, UX Copywriting"
   const sector = "Weather App, Sustainability, Expenses Management"
   const colors = ["#4CDCB1", "#000"]
+
+  // const [replay, setReplay] = useState(true);
+  // const animatedContainer = {
+  //   visible: {
+  //     transition: {
+  //       staggerChildren: 0.025
+  //     }
+  //   }
+  // };
 
   return (
     <div className="someWeather-doc">
