@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 import './SomeWeather.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
-// animation
-import { motion } from "framer-motion";
-
 // images
 import someWeatherpng from '../../../resources/someWeather/some-weather.png'
 import someWeatherMoodboard from '../../../resources/someWeather/someWeatherMoodboard.png'
@@ -20,6 +17,10 @@ import ProjectHero from '../ProjectHero/ProjectHero'
 import Divider from '../../Divider/Divider'
 import ProjectFooter from '../../ProjectFooter/ProjectFooter'
 
+// next projects
+import someWeatherProject from '../../../resources/someWeather/someWeatherMoodboard.png'
+import wheelOnProject from '../../../resources/wheelOn/wo-hero-img.png'
+
 
 export default function SomeWeather() {
   const category = "UX DESIGN // APP DESIGN"
@@ -28,15 +29,6 @@ export default function SomeWeather() {
   const role = "UI/UX Designer, UX Researcher, Ideation, discovery, prototyping, UX Copywriting"
   const sector = "Weather App, Sustainability, Expenses Management"
   const colors = ["#4CDCB1", "#000"]
-
-  // const [replay, setReplay] = useState(true);
-  // const animatedContainer = {
-  //   visible: {
-  //     transition: {
-  //       staggerChildren: 0.025
-  //     }
-  //   }
-  // };
 
   return (
     <div className="someWeather-doc">
@@ -62,7 +54,7 @@ export default function SomeWeather() {
               </div>
             </Col>
             <Col md={5} lg={6}>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              <p>This project was part of a semester-long project in our UX Design course where we were tasked to create a weather app that offers a different experience. After a thorough competitor analysis, current approaches in weather app experiences mainly focus on clothing and scheduling, and there have been no previous attempts in trying to integrate and encourage environmental awareness among users in their experience. This train of thought was initialized from how people usually notice the effects of climate change or global warming through the drastic change in seasons or weather.</p>
             </Col>
           </Row>
         </Container>
@@ -362,7 +354,7 @@ export default function SomeWeather() {
       </div>
 
       {/* Footer */}
-      <ProjectFooter />
+      <ProjectFooter next={wheelOnProject} prev={someWeatherProject}/>
     </div>
   )
 }

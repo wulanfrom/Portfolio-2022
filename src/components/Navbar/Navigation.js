@@ -33,8 +33,8 @@ export default function Navigation(props) {
 
   return (
     <div>
-        <Navbar className="wulanfrom-navbar" style={{ borderBottom: border_bottom, backgroundColor: chosenColor[0] }} expand="lg">
-            <Container>
+        <Navbar className="wulanfrom-navbar" style={{ backgroundColor: chosenColor[0] }} expand="lg">
+            <Container className="pb-1" style={{ borderBottom: border_bottom }}>
                 <Navbar.Brand style={{ color: chosenColor[1] }} href="/">wulanfrom</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
