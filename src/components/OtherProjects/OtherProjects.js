@@ -50,11 +50,11 @@ export default function OtherProjects() {
         
         <Container className="p-0">
             <Row>
-                <Col className="mb-2" sm={6} md={4} lg={4}>
+                {/* <Col className="mb-2" sm={6} md={4} lg={4}>
                     <div className="other-project">
                         <OtherCard title={"XDesign"} link={projectLink.xDesign} img={img.xDesign} category={category.xDesign} bgColor={color.xDesign[0]} textColor={color.xDesign[1]} />
                     </div>
-                </Col>
+                </Col> */}
                 <Col className="mb-2" sm={6} md={4} lg={4}>
                     <div className="other-project">
                         <OtherCard title={"Good Food that Feels Like Home"} link={projectLink.goodFood} img={img.goodFood} category={category.goodFood} bgColor={color.goodFood[0]} textColor={color.goodFood[1]} />
@@ -70,11 +70,11 @@ export default function OtherProjects() {
                         <OtherCard title={"Color My Influence"} link={projectLink.colorArt} img={img.colorArt} category={category.colorArt} bgColor={color.colorArt[0]} textColor={color.colorArt[1]} />
                     </div>
                 </Col>
-                <Col className="mb-2" sm={6} md={4} lg={4}>
+                {/* <Col className="mb-2" sm={6} md={4} lg={4}>
                     <div className="other-project">
                         <OtherCard title={"AsianCHI Symposium Official Website"} link={projectLink.asianCHI} img={img.asianCHI} category={category.asianCHI} bgColor={color.asianCHI[0]} textColor={color.asianCHI[1]} />
                     </div>
-                </Col>
+                </Col> */}
             </Row>
         </Container>
     </div>

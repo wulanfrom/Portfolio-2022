@@ -5,7 +5,7 @@ import "./CeeyaSearch.css"
 // images
 import someWeatherpng from '../../../resources/ceeya-project.png'
 import someWeatherMoodboard from '../../../resources/someWeather/someWeatherMoodboard.png'
-import swFeature1 from '../../../resources/someWeather/SW-feature-1.svg'
+import swFeature1 from '../../../resources/someWeather/SW-feature-1.png'
 import swFeature2 from '../../../resources/someWeather/SW-feature-2.svg'
 import swFeature3 from '../../../resources/someWeather/SW-feature-3.png'
 import swPersona from '../../../resources/someWeather/SW-persona.png'

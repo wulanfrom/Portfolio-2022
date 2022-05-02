@@ -17,7 +17,7 @@ export default function OtherCard(props) {
     background-color: ${bgColor};
     overflow: hidden;
     border-radius: 4px;
-    height: 250px;
+    height: 350px;
     width: 100%;
     margin: 0;
     `
@@ -25,7 +25,7 @@ export default function OtherCard(props) {
     return (
         <div className="other-card-container m-0">
             <Link className="link-container-other" to={ projectLink }>
-                <Tilt className="Tilt tilt-other" options={{ scale: 1.01, perspective: 1500, max : 10, speed: 500 }} style={{ height: 250, width: "100%" }} >
+                {/* <Tilt className="Tilt tilt-other" options={{ scale: 1.01, perspective: 1500, max : 10, speed: 500 }} style={{ height: 250, width: "100%" }} > */}
                     <OtherCardContainer>
                         <div className="desc-row-other">
                             <p className="m-0 category-text-other">{category}</p>
@@ -37,7 +37,7 @@ export default function OtherCard(props) {
                             </div>
                         </div>
                     </OtherCardContainer>
-                </Tilt>
+                {/* </Tilt> */}
             </Link>
         </div>
   )
