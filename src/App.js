@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import { Routes, Route, Link } from "react-router-dom";
@@ -12,6 +10,13 @@ import Contact from './components/Contact/Contact'
 // Projects
 import CeeyaSearch from './components/Projects/CeeyaSearch/CeeyaSearch';
 import SomeWeather from './components/Projects/SomeWeather/SomeWeather';
+import ReBalance from './components/Projects/reBalance/reBalance';
+import WheelOn from './components/Projects/WheelOn/WheelOn';
+import XDesign from './components/Projects/XDesign/XDesign'
+import NftPoster from './components/Projects/NftPoster/NftPoster';
+import ColorArt from './components/Projects/ColorArt/ColorArt';
+import GoodFood from './components/Projects/GoodFood/GoodFood';
+import AsianCHI from './components/Projects/AsianCHI/AsianCHI';
 
 function App() {
   return (
@@ -24,6 +29,13 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="ceeya" element={<CeeyaSearch />} />
           <Route path="someWeather" element={<SomeWeather />} />
+          <Route path="reBalance" element={<ReBalance />} />
+          <Route path="wheelOn" element={<WheelOn />} />
+          <Route path="xDesign" element={<XDesign />} />
+          <Route path="nftPoster" element={<NftPoster />} />
+          <Route path="colorArt" element={<ColorArt />} />
+          <Route path="goodFood" element={<GoodFood />} />
+          <Route path="asianCHI" element={<AsianCHI />} />
         </Routes>
     </div>
   );

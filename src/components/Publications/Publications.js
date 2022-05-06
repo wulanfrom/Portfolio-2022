@@ -6,11 +6,11 @@ export default function Publications() {
   return (
     <Container>
         <Row className="d-flex my-5">
-            <Col lg={5} className="d-flex my-2 p-0">
+            <Col sm={4} lg={5} className="d-flex my-2 p-0">
                 <h1>Publications</h1>
                 <h5 className="ml-1 text-black-50">2</h5>
             </Col>
-            <Col lg={7}>
+            <Col className="p-0" sm={8} lg={7}>
                 <div>
                     <p className="text-uppercase m-0 text-secondary">Paper</p>
                     <p className="m-0">Sangkyung Kwak*, Jeongeon Park*, <b>Nabila Sindi*</b>. reBalance: A Customizable Data Visualization Approach to Keeping a Balanced Health. In Proceedings of HCI Korea (HCIK '22). 2022.</p>

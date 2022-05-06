@@ -23,7 +23,7 @@
 }
 
 .project-img {
-    height: 100%;
+    width: 100%;
     min-height: 470px;
     /* width: 120%; */
 }
@@ -79,5 +79,6 @@
 }
 
 .underline-category {
-    border: 0.5px solid;
+    border: 2px solid;
+    width: 100px;
 }

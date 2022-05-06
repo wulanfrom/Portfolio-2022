@@ -19,15 +19,19 @@ export default function Work() {
                 <FeaturedProjects />
             </div>
 
+            <Divider height={120}/>
+
             <div id="other-projects">
                 <OtherProjects />
             </div>
+            
+            <Divider height={120}/>
 
             <div id="publications">
                 <Publications />
             </div>
 
-            <Divider height={'72px'}/>
+            <Divider height={120}/>
 
         </Container>
 

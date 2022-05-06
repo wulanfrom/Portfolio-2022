@@ -18,16 +18,23 @@ export default function Navigation(props) {
     "ceeya": ["#272727", "#fff"],
     "someWeather": ["#4CDCB1", "#000"],
     "reBalance": ["#6CAFE5", "#000000"],
-    "wheelOn": ["#FAB82D", "#000000"],
+    "wheelon": ["#FAB82D", "#000000"],
+    "xdesign": ["#E8E8E8", "#000000"],
+    "nftPoster": ["#F8FB75", "#000000"],
+    "colorArt": ["#45494B", "#fff"],
+    "goodFood": ["#B8D4BD", "#000000"],
+    "asianCHI": ["#00357C", '#fff' ]
   }
+
+  console.log(pathname)
 
   const chosenColor = colors[pathname];
   const border_bottom = '1px solid ' + chosenColor[1];
 
   return (
     <div>
-        <Navbar className="wulanfrom-navbar" style={{ borderBottom: border_bottom, backgroundColor: chosenColor[0] }} expand="lg">
-            <Container>
+        <Navbar className="wulanfrom-navbar" style={{ backgroundColor: chosenColor[0] }} expand="lg">
+            <Container className="pb-1" style={{ borderBottom: border_bottom }}>
                 <Navbar.Brand style={{ color: chosenColor[1] }} href="/">wulanfrom</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

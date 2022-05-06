@@ -2,7 +2,7 @@ import React from 'react'
 import './ProjectHero.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
-import someWeatherpng from '../../../resources/some-weather.png'
+import someWeatherpng from '../../../resources/someWeather/some-weather.png'
 
 export default function ProjectHero(props) {
     const title = props.title;
