@@ -1,6 +1,6 @@
 import React from 'react'
 import './AsianCHI.css'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
 // components
 import ProjectHero from '../ProjectHero/ProjectHero'
@@ -15,12 +15,17 @@ import someWeatherProject from '../../../resources/someWeather/someWeatherMoodbo
 import wheelOnProject from '../../../resources/wheelOn/wo-hero-img.png'
 
 export default function AsianCHI() {
-    const category = "data visualization"
-    const projectTitle = "Color My Influence"
-    const projectDesc = "Visualizing the Colors used by the Century's Most Influential Painters"
-    const role = "Visual Designer, Graphic Designer"
-    const sector = "Art"
+    const category = "Web Design, Development, and Management"
+    const projectTitle = "Asian CHI Symposium 2021 Official Website"
+    const projectDesc = "Building and managing Asian CHI Symposium 2021's Official Website"
+    const role = "Web Design, Front End Developer, Website Chair"
+    const sector = "Conference"
     const colors = ["#00357C", "#fff"]
+
+    const toAsianCHI = (e) => {
+        e.preventDefault();
+        window.location.href = 'https://asian-chi.github.io/2021/';
+    }
 
   return (
     <div className="asianCHI-doc">
@@ -42,17 +47,35 @@ export default function AsianCHI() {
                 <Row>
                     <Col md={7} lg={6}>
                     <div>
-                        <p className="Section-title">What Colors do the Most Influensial Painters Use?</p>
+                        <p className="Section-title">Creating and Managing One of HCI's Biggest Conference</p>
                     </div>
                     </Col>
                     <Col md={5} lg={6}>
-                        <p>Have you ever wondered what kind fo situation prompts painters to explore and try different colors? I try to answer that questions through analyzing the colors used, amounts of paintings, and size of paintings done by 25 of the most influential painters. From the findings, we can see what color palettes each painter are comfortable with and how their painting ethic is. </p>
+                        <p>During my time as the website chair of Asian CHI Symposium 2021, I designed, built and managed the website throughout its run until the end of the conference. I conducted interviews to understand what key information people look for in conference websites, designed the website in Figma, implemented it using HTML/CSS/Javascript. Throughout the design, I had to make sure the website was accessible, following the <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG)</a>.</p>
                     </Col>
                 </Row>
             </Container>
        </div>
 
-       <Divider height={72} />
+       <Divider height={120} />
+
+       {/* Open website */}
+       <Container className="Single-Column-Container">
+            <Row>
+                <Col>
+                    <div>
+                        <div className="Section-line-chi"></div>
+                        <p className="Section-type">RESULT</p>
+                        <p className="Section-website-title">Check out the Final Website</p>
+                    </div>
+                </Col>
+                <Col className="d-flex align-items-center justify-content-center">
+                    <Button onClick={toAsianCHI} style={{backgroundColor: "#00357C", color: "#fff" }} className="website-button">-></Button>
+                </Col>
+            </Row>
+        </Container>
+
+        <Divider height={120} />
 
         {/* Footer */}
         <ProjectFooter next={wheelOnProject} prev={someWeatherProject}/>
