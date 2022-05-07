@@ -9,6 +9,7 @@ import ProjectFooter from '../../ProjectFooter/ProjectFooter'
 
 // images
 import xdesignpng from '../../../resources/xDesign/xdesign.png'
+import xdesignclosing from '../../../resources/xDesign/xd-closing.png'
 
 // next projects
 import someWeatherProject from '../../../resources/someWeather/someWeatherMoodboard.png'
@@ -18,7 +19,7 @@ export default function XDesign() {
     const category = "HCI RESEARCH // WEB DEVELOPMENT"
     const projectTitle = "XDesign"
     const projectDesc = "Intergrating explainable AI into interface design education."
-    const role = "UX Researcher, Web Designer, Front End Developer"
+    const role = "HCI Researcher, Web Designer, Front End Developer"
     const sector = "Explainable AI Education, Interface Design"
     const colors = ["#E8E8E8", "#000"]
   return (
@@ -50,8 +51,10 @@ export default function XDesign() {
                 </Col>
             </Row>
             </Container>
+            <Divider height={120} />
 
             <div className="wireframe-container py-5">
+                <Divider height={72} />
                 <Container className="Single-Column-Container">
                     <div>
                         <div>
@@ -68,13 +71,13 @@ export default function XDesign() {
                 <Container className="text-center">
                     <Divider height={72} />
                     <a className="mt-5 research-link" href="https://xdesign.kixlab.org/">Checkout the official research website</a>
-                    <p className="mt-3 mb-5">This work was published at <b>SIGCSE 2022</b>. <a href="https://dl.acm.org/doi/abs/10.1145/3478432.3499052" className="download-research-link">Download the paper</a></p>
+                    <p className="mt-3 mb-5">This work was published at <a href="https://sigcse2022.sigcse.org/"><b>SIGCSE 2022</b></a>. <a href="https://dl.acm.org/doi/abs/10.1145/3478432.3499052" className="download-research-link">Download the paper</a></p>
                     <Divider height={72} />
                 </Container>
 
                 <Container>
                     <div className="img-giant">
-                        <img className="opening-image" src={xdesignpng}></img>
+                        <img className="opening-image" src={xdesignclosing}></img>
                     </div>
                 </Container>
 
