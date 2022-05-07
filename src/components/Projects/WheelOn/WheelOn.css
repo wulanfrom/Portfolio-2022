@@ -145,3 +145,54 @@
         line-height: 120%;
     }
 }
+
+
+.context-img {
+    height: 100%;
+    width: 100%;
+    /* max-width: 460px; */
+}
+
+.context-container {
+    overflow: hidden;
+    height: 290px;
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+    text-align: bottom;
+}
+
+.context-desc {
+    max-width: 420px;
+    color: #fff;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    right: 16px;
+}
+
+.context-hmw {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.list-main-point {
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+.list-item-points {
+    list-style: none;
+    padding-left: 24px;
+    margin: 0;
+}
+
+.website-button {
+    height: 100px;
+    width: 100px;
+    color: #000;
+    background-color: #FAB82D;
+    border: none;
+    margin-left: auto;
+}

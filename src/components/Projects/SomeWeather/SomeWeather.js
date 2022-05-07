@@ -182,13 +182,13 @@ export default function SomeWeather() {
 
           <Container>
             <Row>
-              <Col md={7} lg={6}>
+              <Col md={5} lg={6}>
                 <div>
                   <p className="Section-title">Find today's Tip to save tomorrow</p>
                   <p>We help you get through your day better through money saving and eco-friendly tips.</p>
                 </div>
               </Col>
-              <Col md={5} lg={6}>
+              <Col md={7} lg={6}>
               </Col>
             </Row>
           </Container>
