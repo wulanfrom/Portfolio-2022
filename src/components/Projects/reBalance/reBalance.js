@@ -384,33 +384,27 @@ export default function reBalance() {
                         <img className="opening-image" src={implementation}></img>
                     </div>
                   </Container>
+
+                  <Divider height={120} />
+
+                    {/* Open website */}
+                    <Container className="Single-Column-Container">
+                        <Row>
+                            <Col>
+                                <div>
+                                    <div className="Section-line-rb"></div>
+                                    <p className="Section-type">HI-FI PROTOTYPE</p>
+                                    <h3 className="Section-website-title">Check out the Final Website</h3>
+                                </div>
+                            </Col>
+                            <Col className="d-flex align-items-center justify-content-center">
+                                <Button onClick={toReBalance} style={{backgroundColor: "#6CAFE5"}} className="website-button">-></Button>
+                            </Col>
+                        </Row>
+                    </Container>
+                    <Divider height={72} />
                 </div>
 
-                <Divider height={120} />
-
-                {/* Open website */}
-                <Container className="Single-Column-Container">
-                    <Row>
-                        <Col>
-                            <div>
-                                <div className="Section-line-rb"></div>
-                                <p className="Section-type">HI-FI PROTOTYPE</p>
-                            </div>
-                        </Col>
-                        <Col>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={7} lg={6}>
-                        <div>
-                            <p className="Section-title">Check out the Final Website</p>
-                        </div>
-                        </Col>
-                        <Col md={5} lg={6}>
-                            <Button onClick={toReBalance} style={{backgroundColor: "#6CAFE5"}} className="website-button">-></Button>
-                        </Col>
-                    </Row>
-                </Container>
 
                 <Divider height={120} />
 

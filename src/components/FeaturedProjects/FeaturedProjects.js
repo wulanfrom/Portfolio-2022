@@ -32,7 +32,7 @@ export default function FeaturedProjects() {
     someWeather: "Integrating environmental awareness to everyday weather apps.",
     reBalance: "Helping manage your emotional, physical, and social health.",
     wheelOn: "Assisting users with moving disabilities through online means.",
-    asianCHI: "Asian CHI Symposium's 2022 Official Website",
+    asianCHI: "Asian CHI Symposium's 2021 Official Website",
     kixlab: "Intergrating explainable AI into interface design education."
   }
   const category = {
@@ -89,12 +89,6 @@ export default function FeaturedProjects() {
         <Divider height={'32px'}/>
 
         {/* <div className="project"> */}
-          <FeaturedCard category={category.someWeather} link={projectLinks.someWeather} title={"Some(섬) Weather"} desc={descriptions.someWeather} img={images.someWeather} bgColor={colors.someWeather[0]} textColor={colors.someWeather[1]}/>
-        {/* </div> */}
-
-        <Divider height={'32px'}/>
-
-        {/* <div className="project"> */}
           <FeaturedCard category={category.reBalance} link={projectLinks.reBalance} title={"reBalance"} desc={descriptions.reBalance} img={images.reBalance} bgColor={colors.reBalance[0]} textColor={colors.reBalance[1]}/>
         {/* </div> */}
 
@@ -106,12 +100,18 @@ export default function FeaturedProjects() {
 
         <Divider height={'32px'}/>
 
-        <FeaturedCard category={category.asianCHI} link={projectLinks.asianCHI} title={"AsianCHI Symposium 2022 Official Website"} desc={descriptions.asianCHI} img={images.asianCHI} bgColor={colors.asianCHI[0]} textColor={colors.asianCHI[1]}/>
+        {/* <div className="project"> */}
+        <FeaturedCard category={category.someWeather} link={projectLinks.someWeather} title={"Some(섬) Weather"} desc={descriptions.someWeather} img={images.someWeather} bgColor={colors.someWeather[0]} textColor={colors.someWeather[1]}/>
         {/* </div> */}
 
         <Divider height={'32px'}/>
 
         <FeaturedCard category={category.kixlab} link={projectLinks.kixlab} title={"XDesign"} desc={descriptions.kixlab} img={images.kixlab} bgColor={colors.kixlab[0]} textColor={colors.kixlab[1]}/>
+        {/* </div> */}
+
+        <Divider height={'32px'}/>
+
+        <FeaturedCard category={category.asianCHI} link={projectLinks.asianCHI} title={"AsianCHI Symposium 2021 Official Website"} desc={descriptions.asianCHI} img={images.asianCHI} bgColor={colors.asianCHI[0]} textColor={colors.asianCHI[1]}/>
         {/* </div> */}
 
         <Divider height={'32px'}/>

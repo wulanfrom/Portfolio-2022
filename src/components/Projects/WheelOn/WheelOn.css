@@ -126,6 +126,12 @@
     line-height: 120%;
 }
 
+.Section-website-title {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
 .Section-type {
     font-family: 'Source Code Pro', monospace;
     text-transform: uppercase;

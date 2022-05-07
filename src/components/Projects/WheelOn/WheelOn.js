@@ -521,33 +521,26 @@ export default function WheelOn() {
                         <img className="opening-image" src={woImplement}></img>
                     </div>
                     </Container>
+
+                    <Divider height={120} />
+
+                    {/* Open website */}
+                    <Container className="Single-Column-Container">
+                        <Row>
+                            <Col>
+                                <div>
+                                    <div className="Section-line-wo"></div>
+                                    <p className="Section-type">HI-FI PROTOTYPE</p>
+                                    <h3 className="Section-website-title">Check out the Final Website</h3>
+                                </div>
+                            </Col>
+                            <Col className="d-flex align-items-center justify-content-center">
+                                <Button onClick={toWheelOn} className="website-button">-></Button>
+                            </Col>
+                        </Row>
+                    </Container>
+                    <Divider height={72} />
                 </div>
-
-                <Divider height={120} />
-
-                {/* Open website */}
-                <Container className="Two-Column-Container">
-                    <Row>
-                        <Col>
-                            <div>
-                                <div className="Section-line-wo"></div>
-                                <p className="Section-type">HI-FI PROTOTYPE</p>
-                            </div>
-                        </Col>
-                        <Col>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={7} lg={6}>
-                        <div>
-                            <p className="Section-title">Check out the Final Website</p>
-                        </div>
-                        </Col>
-                        <Col md={5} lg={6}>
-                            <Button onClick={toWheelOn} className="website-button">-></Button>
-                        </Col>
-                    </Row>
-                </Container>
 
                 <Divider height={120} />
 
