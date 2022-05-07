@@ -15,6 +15,8 @@ export default function Navigation(props) {
 
   const colors = { // background color, text color
     "": ["transparent", "#000"],
+    "contact": ["transparent", "#fff"],
+    "about": ["transparent", "#000"],
     "ceeya": ["#272727", "#fff"],
     "someWeather": ["#4CDCB1", "#000"],
     "reBalance": ["#6CAFE5", "#000000"],
@@ -23,7 +25,7 @@ export default function Navigation(props) {
     "nftPoster": ["#F8FB75", "#000000"],
     "colorArt": ["#45494B", "#fff"],
     "goodFood": ["#B8D4BD", "#000000"],
-    "asianCHI": ["#00357C", '#fff' ]
+    "asianCHI": ["#00357C", '#fff' ],
   }
 
   console.log(pathname)

@@ -37,9 +37,11 @@ export default function Footer() {
                         </div>
                     </Col>
                 </Row>
-                <div className="divider-footer mb-2"></div>
-                <div className="text-center mt-2">
-                    <p className="copyright-text text-white">Copyright 2022. Developed and Designed by wulanfrom with ❤️</p>
+                <div className="d-flex flex-column justify-content-center">
+                    <div className="divider-footer mb-2"></div>
+                    <div className="text-center mt-2">
+                        <p className="copyright-text text-white">Copyright 2022. Developed and Designed by wulanfrom with ❤️</p>
+                    </div>
                 </div>
             </Container>
         </div>
